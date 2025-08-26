@@ -28,16 +28,16 @@ Best performing model: **Random Forest**
 F1-Score: 1.0000
 
 ## Top 10 Important Features (Random Forest)
-1. Feature 242: 0.1660
-2. Feature 245: 0.0621
-3. Feature 240: 0.0528
-4. Feature 89: 0.0527
-5. Feature 224: 0.0395
-6. Feature 246: 0.0387
-7. Feature 45: 0.0339
-8. Feature 249: 0.0323
-9. Feature 203: 0.0314
-10. Feature 241: 0.0314
+1. Feature 242: 0.1502
+2. Feature 245: 0.0713
+3. Feature 89: 0.0627
+4. Feature 240: 0.0626
+5. Feature 241: 0.0486
+6. Feature 246: 0.0383
+7. Feature 203: 0.0322
+8. Feature 224: 0.0300
+9. Feature 249: 0.0279
+10. Feature 45: 0.0258
 
 ## Technical Details
 ### Preprocessing
