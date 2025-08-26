@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 8em; }
+        .container { background: #f8d7da; border:1px solid #f5c6cb; display:inline-block; padding: 40px 60px; border-radius:6px;}
+        h1 { color: #a71d2a;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ error_code or 500 }} - {{ error_message or "An error occurred" }}</h1>
+        <p>{{ error_description or "Sorry, something went wrong." }}</p>
+        <a href="/">Return Home</a>
+    </div>
+</body>
+</html>
