@@ -16,10 +16,10 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 def print_banner():
     """Print a nice banner for the demo."""
     print("\n" + "="*70)
-    print("🛡️  AI-POWERED PHISHING EMAIL DETECTION SYSTEM DEMO")
+    print("  AI-POWERED PHISHING EMAIL DETECTION SYSTEM DEMO")
     print("="*70)
-    print("🚀 Advanced Machine Learning for Email Security")
-    print("📧 Protecting against phishing attacks with 95%+ accuracy")
+    print(" Advanced Machine Learning for Email Security")
+    print(" Protecting against phishing attacks with 95%+ accuracy")
     print("="*70 + "\n")
 
 def print_section(title):
@@ -61,12 +61,12 @@ Hi Developer,
 
 Here's your weekly activity summary for your GitHub repositories:
 
-📊 Repository Activity:
+ Repository Activity:
 - 15 commits this week
 - 3 pull requests merged
 - 2 new issues opened
 
-🔥 Trending in your network:
+Trending in your network:
 - New Python machine learning library released
 - Security update for Node.js dependencies
 
@@ -76,12 +76,12 @@ Best regards,
 The GitHub Team
 """
 
-    print("🔍 Testing Phishing Email:")
+    print(" Testing Phishing Email:")
     print("Subject:", phishing_email.split('\n')[2])
     print("Sender:", phishing_email.split('\n')[0])
     print("Contains suspicious elements: ✓ Urgent language ✓ Suspicious URL ✓ Threats")
     
-    print("\n🔍 Testing Legitimate Email:")
+    print("\n Testing Legitimate Email:")
     print("Subject:", legitimate_email.split('\n')[2])
     print("Sender:", legitimate_email.split('\n')[0])
     print("Characteristics: ✓ Professional tone ✓ Legitimate domain ✓ Informational content")
@@ -93,27 +93,27 @@ def demonstrate_features():
     print_section("KEY FEATURES DEMONSTRATION")
     
     features = [
-        "🤖 Machine Learning Models:",
+        "  Machine Learning Models:",
         "   • Random Forest Classifier (100+ decision trees)",
         "   • Support Vector Machine (RBF kernel)", 
         "   • Ensemble prediction with majority voting",
         "",
-        "🔤 Natural Language Processing:",
+        "  Natural Language Processing:",
         "   • Text preprocessing and normalization",
         "   • TF-IDF vectorization (5000 features)",
         "   • Advanced feature extraction",
         "",
-        "🌐 Web Interface:",
+        "  Web Interface:",
         "   • Real-time email analysis",
         "   • File upload support (.txt, .eml, .msg)",
         "   • Interactive dashboard and analytics",
         "",
-        "🗄️ Database Integration:",
+        "  Database Integration:",
         "   • MySQL database for predictions storage",
         "   • User activity tracking",
         "   • Performance monitoring",
         "",
-        "📊 Analysis Capabilities:",
+        "  Analysis Capabilities:",
         "   • URL pattern detection",
         "   • Suspicious keyword identification",
         "   • Sender authenticity verification",
@@ -139,7 +139,7 @@ def show_model_performance():
     df = pd.DataFrame(performance_data)
     print(df.to_string(index=False))
     
-    print("\n🎯 Key Achievements:")
+    print("\n Key Achievements:")
     print("   • 97.2% overall accuracy with ensemble method")
     print("   • 98.1% recall - catches most phishing attempts")
     print("   • 96.0% precision - minimizes false positives")
@@ -150,27 +150,27 @@ def installation_guide():
     print_section("INSTALLATION & SETUP GUIDE")
     
     steps = [
-        "1️⃣  Prerequisites:",
+        "1️  Prerequisites:",
         "   • Python 3.8+ installed",
         "   • MySQL 5.7+ database server",
         "   • pip package manager",
         "",
-        "2️⃣  Quick Installation:",
+        "2️  Quick Installation:",
         "   git clone <repository-url>",
         "   cd phishing-email-detection",
         "   pip install -r requirements.txt",
         "",
-        "3️⃣  Database Setup:",
+        "3️  Database Setup:",
         "   mysql -u root -p < database/create_tables.sql",
         "",
-        "4️⃣  Model Training:",
+        "4️  Model Training:",
         "   python train_model.py",
         "",
-        "5️⃣  Run Application:",
+        "5️  Run Application:",
         "   python app.py",
         "   # Access at http://localhost:5000",
         "",
-        "⚡ Total setup time: ~10 minutes"
+        " Total setup time: ~10 minutes"
     ]
     
     for step in steps:
@@ -181,22 +181,22 @@ def demonstrate_use_cases():
     print_section("PRACTICAL USE CASES")
     
     use_cases = [
-        "🏢 Enterprise Email Security:",
+        "   Enterprise Email Security:",
         "   • Protect employees from phishing attacks",
         "   • Integrate with existing email systems",
         "   • Monitor and analyze email threats",
         "",
-        "🔐 Personal Email Protection:", 
+        "   Personal Email Protection:", 
         "   • Screen suspicious emails before reading",
         "   • Educational tool for phishing awareness",
         "   • Safe email verification service",
         "",
-        "🎓 Research & Education:",
+        "    Research & Education:",
         "   • Study phishing attack patterns",
         "   • Train cybersecurity professionals",
         "   • Benchmark against other detection methods",
         "",
-        "🛡️ Cybersecurity Operations:",
+        "   Cybersecurity Operations:",
         "   • Threat intelligence gathering",
         "   • Incident response support",
         "   • Security awareness training"
@@ -210,25 +210,25 @@ def show_technical_details():
     print_section("TECHNICAL IMPLEMENTATION")
     
     tech_stack = [
-        "🐍 Backend Technologies:",
+        "   Backend Technologies:",
         "   • Python 3.8+ (Core language)",
         "   • Flask 2.3+ (Web framework)",
         "   • SQLAlchemy (Database ORM)",
         "   • scikit-learn (Machine learning)",
         "   • NLTK (Natural language processing)",
         "",
-        "🗄️ Database & Storage:",
+        "   Database & Storage:",
         "   • MySQL 5.7+ (Primary database)",
         "   • Pickle files (Model serialization)",
         "   • CSV files (Data processing)",
         "",
-        "🌐 Frontend Technologies:",
+        "   Frontend Technologies:",
         "   • HTML5 & CSS3",
         "   • Bootstrap 5 (UI framework)",
         "   • JavaScript (Interactivity)",
         "   • Chart.js (Data visualization)",
         "",
-        "📦 Key Libraries:",
+        "   Key Libraries:",
         "   • pandas (Data manipulation)",
         "   • numpy (Numerical computing)",
         "   • BeautifulSoup (HTML parsing)",
@@ -242,7 +242,7 @@ def run_demo():
     """Run the complete demonstration."""
     print_banner()
     
-    print("🎬 Welcome to the comprehensive system demonstration!")
+    print("Welcome to the comprehensive system demonstration!")
     print("This demo showcases all features and capabilities of our")
     print("AI-Powered Phishing Email Detection System.\n")
     
@@ -272,12 +272,12 @@ def run_demo():
     installation_guide()
     
     print_section("DEMO COMPLETE")
-    print("🎉 Thank you for exploring our AI-Powered Phishing Detection System!")
-    print("🚀 Ready to protect against phishing attacks with cutting-edge ML!")
-    print("📧 For questions or support, please refer to the documentation.")
+    print("Thank you for exploring our AI-Powered Phishing Detection System!")
+    print("Ready to protect against phishing attacks with cutting-edge ML!")
+    print("For questions or support, please refer to the documentation.")
     print("\n" + "="*70)
     
-    print("\n🔗 Next Steps:")
+    print("\n Next Steps:")
     print("   1. Set up the system using the installation guide")
     print("   2. Train models with your own datasets") 
     print("   3. Integrate with your email infrastructure")
@@ -310,10 +310,10 @@ def create_sample_data():
     df = pd.DataFrame(sample_data)
     df.to_csv('data/raw/sample_emails.csv', index=False)
     
-    print("✅ Sample dataset created: data/raw/sample_emails.csv")
-    print(f"   📊 Total samples: {len(df)}")
-    print(f"   🚨 Phishing: {sum(df['label'])}")
-    print(f"   ✅ Legitimate: {len(df) - sum(df['label'])}")
+    print("Sample dataset created: data/raw/sample_emails.csv")
+    print(f"   Total samples: {len(df)}")
+    print(f"   Phishing: {sum(df['label'])}")
+    print(f"   Legitimate: {len(df) - sum(df['label'])}")
 
 if __name__ == "__main__":
     # Check if this is being run directly

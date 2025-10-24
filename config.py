@@ -1,4 +1,3 @@
-# Configuration settings for the Phishing Email Detection System
 import os
 from dotenv import load_dotenv
 from urllib.parse import quote_plus
@@ -7,45 +6,49 @@ load_dotenv()
 
 class Config:
     # Flask Configuration
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'your-secret-key-here'
-    
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'replace-with-your-secret-key')
+    DEBUG      = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+
     # Database Configuration
-    DATABASE_CONFIG = {
-        'host': os.environ.get('DB_HOST') or 'localhost',
-        'user': os.environ.get('DB_USER') or 'root',
-        'password': os.environ.get('DB_PASSWORD') or 'password',
-        'database': os.environ.get('DB_NAME') or 'phishing_detection'
-    }
-    
-    # Encode password to handle special characters like '@'
-    ENCODED_DB_PASSWORD = quote_plus(DATABASE_CONFIG['password'])
-    
-    # MySQL Database URI with encoded password
+    DB_HOST     = os.environ.get('DB_HOST', 'localhost')
+    DB_USER     = os.environ.get('DB_USER', 'root')
+    DB_PASSWORD = os.environ.get('DB_PASSWORD', 'password')
+    DB_NAME     = os.environ.get('DB_NAME', 'phishing_detection')
+
+    # Encode password for URI
+    ENCODED_DB_PASSWORD = quote_plus(DB_PASSWORD)
+
+    # SQLAlchemy URI
     SQLALCHEMY_DATABASE_URI = (
-        f"mysql+mysqlconnector://{DATABASE_CONFIG['user']}:{ENCODED_DB_PASSWORD}@"
-        f"{DATABASE_CONFIG['host']}/{DATABASE_CONFIG['database']}"
+        f"mysql+mysqlconnector://{DB_USER}:{ENCODED_DB_PASSWORD}@"
+        f"{DB_HOST}/{DB_NAME}"
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    
-    # File Upload Configuration
-    UPLOAD_FOLDER = 'uploads'
-    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file size
+
+    # Upload Settings
+    UPLOAD_FOLDER      = os.path.join(os.getcwd(), 'uploads')
+    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16 MB
     ALLOWED_EXTENSIONS = {'txt', 'eml', 'msg'}
-    
-    # Model Configuration
-    MODEL_PATH = 'data/models/'
-    VECTORIZER_PATH = 'data/models/tfidf_vectorizer.pkl'
-    RANDOM_FOREST_MODEL_PATH = 'data/models/random_forest_model.pkl'
-    SVM_MODEL_PATH = 'data/models/svm_model.pkl'
-    
-    # Feature Extraction Configuration
-    MAX_FEATURES = 5000
-    MIN_DF = 2
-    MAX_DF = 0.95
-    NGRAM_RANGE = (1, 2)
-    
-    # Email Processing Configuration
+
+    # Model Paths - FIXED to match training script output
+    MODEL_DIR               = os.path.join(os.getcwd(), 'data', 'models')
+    TFIDF_VECTORIZER_PATH   = os.path.join(MODEL_DIR, 'tfidf_vectorizer.pkl')
+    RANDOM_FOREST_MODEL_PATH= os.path.join(MODEL_DIR, 'random_forest_model.pkl')
+    SVM_MODEL_PATH          = os.path.join(MODEL_DIR, 'svm_model.pkl')
+    SVM_SCALER_PATH         = os.path.join(MODEL_DIR, 'svm_scaler.pkl')
+    FEATURE_NAMES_PATH      = os.path.join(MODEL_DIR, 'feature_names.txt')
+
+    # Feature Extraction - matches training script
+    MAX_FEATURES = 3000
+    MIN_DF       = 2
+    MAX_DF       = 0.95
+    NGRAM_RANGE  = (1, 2)
+    SUBLINEAR_TF = True
+
+    # Email Limits
     MAX_EMAIL_LENGTH = 10000
+
+    # Suspicious Indicators
     SUSPICIOUS_KEYWORDS = [
         'urgent', 'verify', 'suspended', 'click here', 'limited time',
         'act now', 'congratulations', 'winner', 'lottery', 'prize',
@@ -53,10 +56,14 @@ class Config:
         'dear sir/madam', 'dear customer', 'update payment',
         'confirm identity', 'account suspended', 'security alert'
     ]
-    
-    # URL Patterns for Detection
+
     SUSPICIOUS_URL_PATTERNS = [
-        r'bit\.ly', r'tinyurl\.com', r'goo\.gl', r't\.co',
-        r'\d+\.\d+\.\d+\.\d+',  # IP addresses
-        r'[a-z]+\d+[a-z]+\.com',  # Mixed alphanumeric domains
+        r'bit\.ly', r'tinyurl\.com', r'goo\.gl', r't\.co',   # URL shorteners
+        r'\d+\.\d+\.\d+\.\d+',                              # IP-based URLs
+        r'[a-z]+\d+[a-z]+\.com'                             # Mixed alphanumeric domains
     ]
+
+    # Additional settings for better compatibility
+    TESTING = False
+    CSRF_ENABLED = True
+    WTF_CSRF_ENABLED = True

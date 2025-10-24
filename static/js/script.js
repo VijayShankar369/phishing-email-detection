@@ -5,16 +5,36 @@ document.addEventListener('DOMContentLoaded', function() {
     const resultsSection = document.getElementById('resultsSection');
     const analyzeBtn = document.getElementById('analyzeBtn');
 
+    console.log('Script loaded. Elements found:', {
+        emailForm: !!emailForm,
+        loadingSection: !!loadingSection,
+        resultsSection: !!resultsSection,
+        analyzeBtn: !!analyzeBtn
+    });
+
     // Handle form submission
     if (emailForm) {
         emailForm.addEventListener('submit', function(e) {
             e.preventDefault();
+            console.log('Form submitted');
+            analyzeEmail();
+        });
+    }
+
+    // Also handle direct button click (fallback)
+    if (analyzeBtn) {
+        analyzeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            console.log('Button clicked directly');
             analyzeEmail();
         });
     }
 
     function analyzeEmail() {
+        console.log('analyzeEmail() called');
+        
         const emailText = document.getElementById('emailText').value.trim();
+        console.log('Email text length:', emailText.length);
         
         if (!emailText) {
             showAlert('Please enter email content to analyze.', 'warning');
@@ -28,28 +48,47 @@ document.addEventListener('DOMContentLoaded', function() {
         const formData = new FormData();
         formData.append('email_text', emailText);
 
+        console.log('Sending request to /analyze...');
+
         // Send request
         fetch('/analyze', {
             method: 'POST',
             body: formData
         })
-        .then(response => response.json())
+        .then(response => {
+            console.log('Response status:', response.status);
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Analysis result:', data);
             hideLoading();
-            if (data.success) {
+            
+            // Check if this is an error response
+            if (data.error) {
+                showAlert(data.error, 'danger');
+                return;
+            }
+            
+            // Check if we have the expected data structure
+            if (data.ensemble_prediction) {
                 displayResults(data);
             } else {
-                showAlert(data.error || 'An error occurred during analysis.', 'danger');
+                console.error('Unexpected data structure:', data);
+                showAlert('Unexpected response format from server.', 'danger');
             }
         })
         .catch(error => {
             hideLoading();
-            console.error('Error:', error);
-            showAlert('An error occurred while analyzing the email. Please try again.', 'danger');
+            console.error('Fetch error:', error);
+            showAlert('Network error: ' + error.message, 'danger');
         });
     }
 
     function showLoading() {
+        console.log('Showing loading...');
         if (loadingSection) {
             loadingSection.style.display = 'block';
         }
@@ -68,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function hideLoading() {
+        console.log('Hiding loading...');
         if (loadingSection) {
             loadingSection.style.display = 'none';
         }
@@ -78,21 +118,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayResults(data) {
-        const prediction = data.prediction;
+        console.log('Displaying results:', data);
+        
+        // Fixed: Use the correct data structure from your Flask endpoint
+        const prediction = data.ensemble_prediction;  // Fixed: was data.prediction
         const individualPredictions = data.individual_predictions;
         const emailAnalysis = data.email_analysis;
 
         // Update result header
         const resultHeader = document.getElementById('resultHeader');
         const resultTitle = document.getElementById('resultTitle');
-        const resultCard = document.getElementById('resultCard');
 
         if (prediction.prediction === 1) {
-            resultHeader.className = 'card-header bg-danger text-white';
-            resultTitle.innerHTML = '<i class="fas fa-exclamation-triangle me-2"></i>Phishing Email Detected!';
+            if (resultHeader) resultHeader.className = 'card-header bg-danger text-white';
+            if (resultTitle) resultTitle.innerHTML = '<i class="fas fa-exclamation-triangle me-2"></i>Phishing Email Detected!';
         } else {
-            resultHeader.className = 'card-header bg-success text-white';
-            resultTitle.innerHTML = '<i class="fas fa-check-circle me-2"></i>Legitimate Email';
+            if (resultHeader) resultHeader.className = 'card-header bg-success text-white';
+            if (resultTitle) resultTitle.innerHTML = '<i class="fas fa-check-circle me-2"></i>Legitimate Email';
         }
 
         // Display ensemble prediction
@@ -105,11 +147,15 @@ document.addEventListener('DOMContentLoaded', function() {
         displayEmailAnalysis(emailAnalysis);
 
         // Show results section
-        resultsSection.style.display = 'block';
-        resultsSection.scrollIntoView({ behavior: 'smooth' });
+        if (resultsSection) {
+            resultsSection.style.display = 'block';
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
     function displayEnsemblePrediction(prediction) {
+        console.log('Displaying ensemble prediction:', prediction);
+        
         const ensembleResult = document.getElementById('ensembleResult');
         const ensembleLabel = document.getElementById('ensembleLabel');
         const ensembleDetails = document.getElementById('ensembleDetails');
@@ -117,32 +163,48 @@ document.addEventListener('DOMContentLoaded', function() {
         const confidenceText = document.getElementById('confidenceText');
 
         // Set alert class
-        if (prediction.prediction === 1) {
-            ensembleResult.className = 'alert alert-danger';
-        } else {
-            ensembleResult.className = 'alert alert-success';
+        if (ensembleResult) {
+            if (prediction.prediction === 1) {
+                ensembleResult.className = 'alert alert-danger';
+            } else {
+                ensembleResult.className = 'alert alert-success';
+            }
         }
 
         // Update content
-        ensembleLabel.textContent = prediction.label;
-        ensembleDetails.textContent = `Model Agreement: ${prediction.votes} | ${prediction.agreement ? 'All models agree' : 'Mixed predictions'}`;
+        if (ensembleLabel) ensembleLabel.textContent = prediction.label;
+        if (ensembleDetails) {
+            ensembleDetails.textContent = `Model Agreement: ${prediction.votes} | ${prediction.agreement ? 'All models agree' : 'Mixed predictions'}`;
+        }
 
         // Update confidence bar
         const confidencePercent = (prediction.confidence * 100).toFixed(1);
-        confidenceBar.style.width = confidencePercent + '%';
-        confidenceBar.textContent = confidencePercent + '%';
-        confidenceText.textContent = `Confidence: ${confidencePercent}%`;
-
-        // Set progress bar color
-        if (prediction.prediction === 1) {
-            confidenceBar.className = 'progress-bar bg-danger';
-        } else {
-            confidenceBar.className = 'progress-bar bg-success';
+        if (confidenceBar) {
+            confidenceBar.style.width = confidencePercent + '%';
+            confidenceBar.textContent = confidencePercent + '%';
+            
+            // Set progress bar color
+            if (prediction.prediction === 1) {
+                confidenceBar.className = 'progress-bar bg-danger';
+            } else {
+                confidenceBar.className = 'progress-bar bg-success';
+            }
+        }
+        
+        if (confidenceText) {
+            confidenceText.textContent = `Confidence: ${confidencePercent}%`;
         }
     }
 
     function displayIndividualPredictions(predictions) {
+        console.log('Displaying individual predictions:', predictions);
+        
         const container = document.getElementById('individualPredictions');
+        if (!container) {
+            console.warn('Individual predictions container not found');
+            return;
+        }
+        
         container.innerHTML = '';
 
         for (const [modelName, prediction] of Object.entries(predictions)) {
@@ -192,63 +254,71 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayEmailAnalysis(analysis) {
+        console.log('Displaying email analysis:', analysis);
+        
         // Display statistics
         const statsContainer = document.getElementById('emailStats');
-        const stats = analysis.statistics;
-        
-        statsContainer.innerHTML = `
-            <div class="list-group">
-                <div class="list-group-item d-flex justify-content-between">
-                    <strong>Character Count:</strong>
-                    <span>${stats.character_count || 0}</span>
+        if (statsContainer && analysis.statistics) {
+            const stats = analysis.statistics;
+            
+            statsContainer.innerHTML = `
+                <div class="list-group">
+                    <div class="list-group-item d-flex justify-content-between">
+                        <strong>Character Count:</strong>
+                        <span>${stats.character_count || 0}</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between">
+                        <strong>Word Count:</strong>
+                        <span>${stats.word_count || 0}</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between">
+                        <strong>URL Count:</strong>
+                        <span>${stats.url_count || 0}</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between">
+                        <strong>Sender:</strong>
+                        <span class="text-truncate" style="max-width: 200px;">${stats.sender || 'Unknown'}</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between">
+                        <strong>Risk Score:</strong>
+                        <span class="badge ${analysis.risk_score > 70 ? 'bg-danger' : analysis.risk_score > 40 ? 'bg-warning' : 'bg-success'}">
+                            ${analysis.risk_score || 0}/100
+                        </span>
+                    </div>
                 </div>
-                <div class="list-group-item d-flex justify-content-between">
-                    <strong>Word Count:</strong>
-                    <span>${stats.word_count || 0}</span>
-                </div>
-                <div class="list-group-item d-flex justify-content-between">
-                    <strong>URL Count:</strong>
-                    <span>${stats.url_count || 0}</span>
-                </div>
-                <div class="list-group-item d-flex justify-content-between">
-                    <strong>Sender:</strong>
-                    <span class="text-truncate" style="max-width: 200px;">${stats.sender || 'Unknown'}</span>
-                </div>
-                <div class="list-group-item d-flex justify-content-between">
-                    <strong>Risk Score:</strong>
-                    <span class="badge ${analysis.risk_score > 70 ? 'bg-danger' : analysis.risk_score > 40 ? 'bg-warning' : 'bg-success'}">
-                        ${analysis.risk_score || 0}/100
-                    </span>
-                </div>
-            </div>
-        `;
+            `;
+        }
 
         // Display suspicious indicators
         const indicatorsContainer = document.getElementById('suspiciousIndicators');
-        const indicators = analysis.suspicious_indicators || [];
-        
-        if (indicators.length > 0) {
-            indicatorsContainer.innerHTML = `
-                <div class="list-group">
-                    ${indicators.map(indicator => `
-                        <div class="list-group-item">
-                            <i class="fas fa-exclamation-triangle text-warning me-2"></i>
-                            ${indicator}
-                        </div>
-                    `).join('')}
-                </div>
-            `;
-        } else {
-            indicatorsContainer.innerHTML = `
-                <div class="alert alert-success">
-                    <i class="fas fa-check-circle me-2"></i>
-                    No suspicious indicators detected.
-                </div>
-            `;
+        if (indicatorsContainer) {
+            const indicators = analysis.suspicious_indicators || [];
+            
+            if (indicators.length > 0) {
+                indicatorsContainer.innerHTML = `
+                    <div class="list-group">
+                        ${indicators.map(indicator => `
+                            <div class="list-group-item">
+                                <i class="fas fa-exclamation-triangle text-warning me-2"></i>
+                                ${indicator}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            } else {
+                indicatorsContainer.innerHTML = `
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle me-2"></i>
+                        No suspicious indicators detected.
+                    </div>
+                `;
+            }
         }
     }
 
     function showAlert(message, type) {
+        console.log('Showing alert:', message, type);
+        
         // Create alert element
         const alertDiv = document.createElement('div');
         alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
@@ -259,7 +329,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Insert at the top of the container
         const container = document.querySelector('.container');
-        container.insertBefore(alertDiv, container.firstChild);
+        if (container) {
+            container.insertBefore(alertDiv, container.firstChild);
+        }
 
         // Auto-dismiss after 5 seconds
         setTimeout(() => {
@@ -401,4 +473,16 @@ document.addEventListener('DOMContentLoaded', function() {
             tbody.appendChild(row);
         }
     }
+
+    // Simple test function for debugging
+    window.testAnalyze = function() {
+        console.log('Testing analyze function...');
+        const emailTextElement = document.getElementById('emailText');
+        if (emailTextElement) {
+            emailTextElement.value = 'URGENT: Your account will be suspended. Click here: http://fake-bank.com/verify';
+            analyzeEmail();
+        } else {
+            console.error('Email text element not found');
+        }
+    };
 });

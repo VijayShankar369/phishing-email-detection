@@ -1,377 +1,259 @@
 """
-Prediction module for phishing email detection.
-Handles real-time email classification and analysis.
+Enhanced Prediction module for phishing email detection.
+Updated to work with Config file and new trained models.
 """
 
-import joblib
-import pandas as pd
-import numpy as np
-import logging
-from datetime import datetime
 import os
 import re
-from src.data_preprocessing import EmailPreprocessor
-from src.feature_extraction import FeatureExtractor
-
+import joblib
+import logging
+import pandas as pd
+import numpy as np
+from datetime import datetime
+from config import Config
 
 class PhishingPredictor:
-    """
-    Real-time phishing email prediction system.
-    """
-    
-    def __init__(self, model_dir='data/models/'):
-        """
-        Initialize the predictor with trained models.
-        
-        Args:
-            model_dir (str): Directory containing trained models
-        """
-        self.model_dir = model_dir
+    """Real-time phishing email predictor using ensemble machine learning."""
+
+    def __init__(self, model_dir=None):
+        self.model_dir = model_dir or Config.MODEL_DIR
         self.models = {}
         self.vectorizer = None
-        self.feature_extractor = None
-        self.preprocessor = EmailPreprocessor()
+        self.scaler = None
+        self.feature_names = []
         self.logger = logging.getLogger(__name__)
-        
-        # Load models and components
-        self.load_models()
-        
-    def load_models(self):
+        self._load_models()
+
+    def _load_models(self):
         """Load trained models and preprocessing components."""
         try:
-            # Load Random Forest model
-            rf_path = os.path.join(self.model_dir, 'random_forest_model.pkl')
-            if os.path.exists(rf_path):
-                self.models['random_forest'] = joblib.load(rf_path)
-                self.logger.info("Random Forest model loaded successfully")
+            # Define model files with correct paths from config
+            model_files = {
+                'random_forest': Config.RANDOM_FOREST_MODEL_PATH,
+                'svm': Config.SVM_MODEL_PATH,
+                'scaler': Config.SVM_SCALER_PATH,
+                'vectorizer': Config.TFIDF_VECTORIZER_PATH
+            }
             
-            # Load SVM model
-            svm_path = os.path.join(self.model_dir, 'svm_model.pkl')
-            if os.path.exists(svm_path):
-                self.models['svm'] = joblib.load(svm_path)
-                self.logger.info("SVM model loaded successfully")
-            
-            # Load TF-IDF vectorizer
-            vectorizer_path = os.path.join(self.model_dir, 'tfidf_vectorizer.pkl')
-            if os.path.exists(vectorizer_path):
-                self.vectorizer = joblib.load(vectorizer_path)
-                self.logger.info("TF-IDF vectorizer loaded successfully")
-            
-            # Initialize feature extractor with loaded vectorizer
-            self.feature_extractor = FeatureExtractor()
-            if self.vectorizer:
-                self.feature_extractor.tfidf_vectorizer = self.vectorizer
-                self.feature_extractor.feature_names = self.vectorizer.get_feature_names_out()
-            
-            if not self.models:
-                self.logger.error("No models loaded. Please train models first.")
-                
+            # Load each model file
+            for name, file_path in model_files.items():
+                if os.path.exists(file_path):
+                    if name == 'scaler':
+                        self.scaler = joblib.load(file_path)
+                    elif name == 'vectorizer':
+                        self.vectorizer = joblib.load(file_path)
+                    else:
+                        self.models[name] = joblib.load(file_path)
+                    self.logger.info(f"✅ Loaded {name} from {os.path.basename(file_path)}")
+                else:
+                    self.logger.error(f"❌ Model file not found: {file_path}")
+                    raise FileNotFoundError(f"Required model file not found: {file_path}")
+
+            # Load feature names
+            feature_path = getattr(Config, 'FEATURE_NAMES_PATH', 
+                                 os.path.join(self.model_dir, 'feature_names.txt'))
+            if os.path.exists(feature_path):
+                with open(feature_path, 'r', encoding='utf-8') as f:
+                    self.feature_names = [line.strip() for line in f.readlines()]
+                self.logger.info(f"✅ Loaded {len(self.feature_names)} feature names")
+            else:
+                self.logger.warning("⚠️ Feature names file not found - this may cause issues")
+
+            self.logger.info("🎉 All models loaded successfully!")
+
         except Exception as e:
-            self.logger.error(f"Error loading models: {str(e)}")
+            self.logger.error(f"❌ Error loading models: {e}")
             raise
-    
-    def predict_single_email(self, email_text, return_probabilities=True):
-        """
-        Predict if a single email is phishing or legitimate.
-        
-        Args:
-            email_text (str): Raw email content
-            return_probabilities (bool): Whether to return prediction probabilities
-            
-        Returns:
-            dict: Prediction results
-        """
-        if not self.models:
-            raise ValueError("No models available. Please load or train models first.")
-        
+
+    def preprocess_text(self, text):
+        """Simple but effective text preprocessing - matches training exactly"""
         try:
-            # Preprocess the email
-            processed_text = self.preprocessor.preprocess_text(email_text)
+            # Convert to lowercase
+            text = str(text).lower()
             
-            # Create a DataFrame for feature extraction
-            df = pd.DataFrame({
-                'text': [email_text],
-                'processed_text': [processed_text]
-            })
+            # Remove special characters but keep spaces
+            text = re.sub(r'[^a-zA-Z0-9\s]', ' ', text)
+            
+            # Remove extra whitespace
+            text = ' '.join(text.split())
+            
+            return text
+        except Exception as e:
+            self.logger.error(f"Text preprocessing error: {e}")
+            return ""
+
+    def extract_features(self, email_text):
+        """Extract features exactly as done in training"""
+        try:
+            # Preprocess text
+            processed_text = self.preprocess_text(email_text)
+            
+            # TF-IDF features
+            if not self.vectorizer:
+                raise ValueError("TF-IDF vectorizer not loaded")
+                
+            tfidf_features = self.vectorizer.transform([processed_text])
+            tfidf_dense = tfidf_features.toarray()
+            
+            # Create feature DataFrame with correct column names
+            tfidf_feature_names = [f"tfidf_{i}" for i in range(tfidf_dense.shape[1])]
+            feature_df = pd.DataFrame(tfidf_dense, columns=tfidf_feature_names)
+            
+            # Extract metadata features (exact same as training)
+            metadata = {
+                'email_length': len(email_text),
+                'word_count': len(email_text.split()),
+                'url_count': email_text.count('http'),
+                'exclamation_count': email_text.count('!'),
+                'question_count': email_text.count('?'),
+                'dollar_count': email_text.count('$'),
+                'urgent_words': sum(1 for word in ['urgent', 'immediate', 'asap', 'hurry'] 
+                                   if word.lower() in email_text.lower()),
+                'suspicious_keywords': sum(1 for word in ['verify', 'click', 'suspended', 'limited', 'expires'] 
+                                         if word.lower() in email_text.lower())
+            }
+            
+            # Add metadata to feature DataFrame
+            for key, value in metadata.items():
+                feature_df[key] = value
+            
+            # If we have feature names from training, ensure consistency
+            if self.feature_names:
+                # Add missing features with zeros
+                for feature_name in self.feature_names:
+                    if feature_name not in feature_df.columns:
+                        feature_df[feature_name] = 0
+                
+                # Reorder to match training order
+                feature_df = feature_df[self.feature_names]
+            
+            self.logger.info(f"✅ Extracted {len(feature_df.columns)} features (expected: {len(self.feature_names)})")
+            return feature_df.values
+            
+        except Exception as e:
+            self.logger.error(f"❌ Feature extraction error: {e}")
+            raise
+
+    def predict_single_email(self, email_text):
+        """Predict if email is phishing using ensemble approach."""
+        try:
+            if not email_text or not email_text.strip():
+                raise ValueError("Email text is empty")
             
             # Extract features
-            features, _ = self.feature_extractor.extract_all_features(df, fit=False)
+            features = self.extract_features(email_text)
             
-            # Make predictions with all available models
-            predictions = {}
+            # Initialize results
+            results = {}
             
-            for model_name, model in self.models.items():
-                prediction = model.predict(features)[0]
-                predictions[model_name] = {
-                    'prediction': int(prediction),
-                    'label': 'Phishing' if prediction == 1 else 'Legitimate'
-                }
+            # Random Forest prediction
+            if 'random_forest' in self.models:
+                rf_pred = int(self.models['random_forest'].predict(features)[0])
+                rf_proba = self.models['random_forest'].predict_proba(features)[0]
                 
-                if return_probabilities and hasattr(model, 'predict_proba'):
-                    proba = model.predict_proba(features)[0]
-                    predictions[model_name]['probabilities'] = {
-                        'legitimate': float(proba[0]),
-                        'phishing': float(proba[1])
+                results['random_forest'] = {
+                    'prediction': rf_pred,
+                    'label': 'Phishing' if rf_pred else 'Legitimate',
+                    'confidence': float(rf_proba[rf_pred]),
+                    'probabilities': {
+                        'legitimate': float(rf_proba[0]),
+                        'phishing': float(rf_proba[1])
                     }
-                    predictions[model_name]['confidence'] = float(max(proba))
+                }
             
-            # Ensemble prediction (majority voting)
-            ensemble_prediction = self._ensemble_predict(predictions)
+            # SVM prediction
+            if 'svm' in self.models and self.scaler:
+                features_scaled = self.scaler.transform(features)
+                svm_pred = int(self.models['svm'].predict(features_scaled)[0])
+                svm_proba = self.models['svm'].predict_proba(features_scaled)[0]
+                
+                results['svm'] = {
+                    'prediction': svm_pred,
+                    'label': 'Phishing' if svm_pred else 'Legitimate',
+                    'confidence': float(svm_proba[svm_pred]),
+                    'probabilities': {
+                        'legitimate': float(svm_proba[0]),
+                        'phishing': float(svm_proba[1])
+                    }
+                }
             
-            # Extract additional email analysis
+            # Ensemble decision
+            if 'random_forest' in results and 'svm' in results:
+                rf_pred = results['random_forest']['prediction']
+                svm_pred = results['svm']['prediction']
+                
+                # Simple voting - prefer Random Forest if disagreement
+                final_pred = rf_pred
+                confidence = results['random_forest']['confidence']
+                agreement = rf_pred == svm_pred
+                
+                ensemble = {
+                    'prediction': int(final_pred),
+                    'label': 'Phishing' if final_pred else 'Legitimate',
+                    'confidence': float(confidence),
+                    'agreement': agreement
+                }
+            else:
+                # Fallback if only one model available
+                primary_result = results.get('random_forest') or results.get('svm')
+                ensemble = {
+                    'prediction': primary_result['prediction'],
+                    'label': primary_result['label'],
+                    'confidence': primary_result['confidence'],
+                    'agreement': True
+                }
+            
+            # Email analysis
             email_analysis = self._analyze_email_content(email_text)
             
+            self.logger.info(f"🎯 Prediction: {ensemble['label']} (confidence: {ensemble['confidence']:.3f})")
+            
             return {
-                'individual_predictions': predictions,
-                'ensemble_prediction': ensemble_prediction,
+                'individual_predictions': results,
+                'ensemble_prediction': ensemble,
                 'email_analysis': email_analysis,
-                'processed_text': processed_text,
                 'timestamp': datetime.now().isoformat()
             }
-            
+
         except Exception as e:
-            self.logger.error(f"Error making prediction: {str(e)}")
+            self.logger.error(f"❌ Prediction error: {e}")
             raise
-    
-    def _ensemble_predict(self, predictions):
-        """
-        Create ensemble prediction from individual model predictions.
-        
-        Args:
-            predictions (dict): Individual model predictions
-            
-        Returns:
-            dict: Ensemble prediction result
-        """
-        # Majority voting
-        phishing_votes = sum(1 for pred in predictions.values() if pred['prediction'] == 1)
-        total_votes = len(predictions)
-        
-        ensemble_prediction = 1 if phishing_votes > total_votes / 2 else 0
-        ensemble_label = 'Phishing' if ensemble_prediction == 1 else 'Legitimate'
-        
-        # Average confidence
-        confidences = [pred.get('confidence', 0.5) for pred in predictions.values()]
-        average_confidence = np.mean(confidences) if confidences else 0.5
-        
-        return {
-            'prediction': ensemble_prediction,
-            'label': ensemble_label,
-            'confidence': float(average_confidence),
-            'votes': f"{phishing_votes}/{total_votes}",
-            'agreement': all(pred['prediction'] == ensemble_prediction for pred in predictions.values())
-        }
-    
-    def _analyze_email_content(self, email_text):
-        """
-        Analyze email content for suspicious indicators.
-        
-        Args:
-            email_text (str): Raw email content
-            
-        Returns:
-            dict: Email analysis results
-        """
-        analysis = {
-            'suspicious_indicators': [],
-            'risk_score': 0,
-            'statistics': {}
-        }
-        
-        # Extract email structure
-        email_data = self.preprocessor.extract_email_content(email_text)
-        
-        # Basic statistics
-        analysis['statistics'] = {
-            'character_count': len(email_text),
-            'word_count': len(email_text.split()),
-            'url_count': len(email_data.get('urls', [])),
-            'sender': email_data.get('sender_email', 'Unknown')
-        }
-        
-        # Check for suspicious indicators
-        risk_score = 0
-        
-        # URL analysis
-        if email_data.get('urls'):
-            analysis['suspicious_indicators'].append(f"Contains {len(email_data['urls'])} URL(s)")
-            risk_score += len(email_data['urls']) * 10
-            
-            # Check for suspicious URL patterns
-            for url in email_data['urls']:
-                if re.search(r'\d+\.\d+\.\d+\.\d+', url):  # IP address
-                    analysis['suspicious_indicators'].append("Contains IP address URL")
-                    risk_score += 20
-                
-                if any(domain in url.lower() for domain in ['bit.ly', 'tinyurl.com', 'goo.gl']):
-                    analysis['suspicious_indicators'].append("Contains shortened URL")
-                    risk_score += 15
-        
-        # Keyword analysis
-        suspicious_keywords = [
-            'urgent', 'verify', 'suspended', 'click here', 'limited time',
-            'act now', 'congratulations', 'winner', 'lottery', 'prize'
-        ]
-        
-        found_keywords = [kw for kw in suspicious_keywords if kw in email_text.lower()]
-        if found_keywords:
-            analysis['suspicious_indicators'].append(f"Contains suspicious keywords: {', '.join(found_keywords)}")
-            risk_score += len(found_keywords) * 5
-        
-        # Urgency indicators
-        urgency_words = ['urgent', 'immediate', 'asap', 'hurry', 'deadline', 'expires']
-        urgency_count = sum(1 for word in urgency_words if word in email_text.lower())
-        if urgency_count > 0:
-            analysis['suspicious_indicators'].append(f"Contains {urgency_count} urgency indicator(s)")
-            risk_score += urgency_count * 8
-        
-        # Excessive punctuation
-        exclamation_count = email_text.count('!')
-        if exclamation_count > 3:
-            analysis['suspicious_indicators'].append(f"Excessive exclamation marks ({exclamation_count})")
-            risk_score += exclamation_count * 2
-        
-        # Sender analysis
-        sender_email = email_data.get('sender_email')
-        if sender_email:
-            if re.search(r'[0-9]+@', sender_email):
-                analysis['suspicious_indicators'].append("Suspicious sender address pattern")
-                risk_score += 15
-            
-            if any(pattern in sender_email.lower() for pattern in ['noreply', 'donotreply']):
-                analysis['suspicious_indicators'].append("Generic sender address")
-                risk_score += 5
-        
-        # Normalize risk score (cap at 100)
-        analysis['risk_score'] = min(risk_score, 100)
-        
-        return analysis
-    
-    def predict_batch_emails(self, email_list):
-        """
-        Predict multiple emails at once.
-        
-        Args:
-            email_list (list): List of email texts
-            
-        Returns:
-            list: List of prediction results
-        """
-        results = []
-        
-        for i, email_text in enumerate(email_list):
-            try:
-                result = self.predict_single_email(email_text)
-                result['email_index'] = i
-                results.append(result)
-            except Exception as e:
-                self.logger.error(f"Error processing email {i}: {str(e)}")
-                results.append({
-                    'email_index': i,
-                    'error': str(e),
-                    'timestamp': datetime.now().isoformat()
-                })
-        
-        return results
-    
-    def predict_from_file(self, file_path):
-        """
-        Predict phishing for emails from a file.
-        
-        Args:
-            file_path (str): Path to file containing email content
-            
-        Returns:
-            dict: Prediction result
-        """
+
+    def _analyze_email_content(self, text):
+        """Analyze email content for suspicious indicators."""
         try:
-            with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
-                email_content = file.read()
-            return self.predict_single_email(email_content)
-        except Exception as e:
-            self.logger.error(f"Error reading file {file_path}: {str(e)}")
-            raise
-    
-    def get_model_info(self):
-        """
-        Get information about loaded models.
-        
-        Returns:
-            dict: Model information
-        """
-        info = {
-            'available_models': list(self.models.keys()),
-            'vectorizer_loaded': self.vectorizer is not None,
-            'model_details': {}
-        }
-        
-        for model_name, model in self.models.items():
-            info['model_details'][model_name] = {
-                'type': type(model).__name__,
-                'parameters': model.get_params()
+            urls = re.findall(r'http[s]?://\S+', text)
+            indicators = []
+            score = 0
+
+            if urls:
+                indicators.append(f"Contains {len(urls)} URL(s)")
+                score += len(urls) * 10
+
+            # Check for suspicious keywords from config
+            found_keywords = []
+            for keyword in Config.SUSPICIOUS_KEYWORDS:
+                if keyword.lower() in text.lower():
+                    found_keywords.append(keyword)
+            
+            if found_keywords:
+                indicators.append(f"Suspicious keywords: {', '.join(found_keywords[:5])}")
+                score += len(found_keywords) * 8
+
+            return {
+                'suspicious_indicators': indicators,
+                'risk_score': min(score, 100),
+                'statistics': {
+                    'character_count': len(text),
+                    'word_count': len(text.split()),
+                    'url_count': len(urls),
+                    'suspicious_keyword_count': len(found_keywords)
+                }
             }
-        
-        return info
-
-def create_predictor_from_trained_models(model_dir='data/models/'):
-    """
-    Create a predictor instance with trained models.
-    
-    Args:
-        model_dir (str): Directory containing trained models
-        
-    Returns:
-        PhishingPredictor: Configured predictor
-    """
-    return PhishingPredictor(model_dir)
-
-if __name__ == "__main__":
-    # Example usage
-    sample_phishing_email = """
-    Subject: URGENT: Your Account Will Be Suspended
-
-    Dear Customer,
-
-    We have detected suspicious activity on your account. Your account will be 
-    suspended in 24 hours unless you verify your information immediately.
-
-    Click here to verify: http://fake-bank.com/verify?id=12345
-
-    Act now to avoid losing access to your account!
-
-    Customer Service Team
-    """
-
-    sample_legitimate_email = """
-    Subject: Meeting Reminder - Project Review Tomorrow
-
-    Hi Team,
-
-    This is a reminder about our project review meeting scheduled for tomorrow 
-    at 2:00 PM in Conference Room B.
-
-    Please bring your progress reports and any materials you'd like to discuss.
-
-    Best regards,
-    John Smith
-    Project Manager
-    """
-
-    try:
-        # Create predictor
-        predictor = PhishingPredictor()
-        
-        # Test predictions
-        print("Testing phishing email:")
-        result1 = predictor.predict_single_email(sample_phishing_email)
-        print(f"Prediction: {result1['ensemble_prediction']['label']}")
-        print(f"Confidence: {result1['ensemble_prediction']['confidence']:.2f}")
-        
-        print("\nTesting legitimate email:")
-        result2 = predictor.predict_single_email(sample_legitimate_email)
-        print(f"Prediction: {result2['ensemble_prediction']['label']}")
-        print(f"Confidence: {result2['ensemble_prediction']['confidence']:.2f}")
-        
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        print("Please ensure models are trained and saved first.")
+        except Exception as e:
+            self.logger.error(f"❌ Email analysis error: {e}")
+            return {
+                'suspicious_indicators': [],
+                'risk_score': 0,
+                'statistics': {'character_count': 0, 'word_count': 0, 'url_count': 0}
+            }

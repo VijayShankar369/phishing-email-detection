@@ -1,5 +1,6 @@
 ﻿# Python
 __pycache__/
+*.pyc
 *.py[cod]
 *.class
 *.so
@@ -55,3 +56,7 @@ config_local.py
 temp/
 tmp/
 *.tmp
+
+
+
+

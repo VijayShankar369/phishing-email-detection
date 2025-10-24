@@ -1,0 +1,1001 @@
+text,label,processed_text,email_length,word_count,url_count,exclamation_count,dollar_signs,urgent_words
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Meeting reminder: Team standup at 10 AM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am tomorrow in conference room b please bring your progress reports,106,17,0,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Bank of America: Fraudulent activity detected. Verify account: http://fake-boa.com/verify,1,bank of america fraudulent activity detected verify account http fake boa com verify,89,9,1,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+YouTube channel strike received. Appeal immediately: http://fake-youtube.com/appeal,1,youtube channel strike received appeal immediately http fake youtube com appeal,83,7,1,0,0,1
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Quarterly results presentation scheduled for next Thursday afternoon.,0,quarterly results presentation scheduled for next thursday afternoon,69,8,0,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+Your timesheet for this period has been approved by your manager.,0,your timesheet for this period has been approved by your manager,65,11,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+"Tax refund of $2,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 2 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+New employee orientation will be held on Monday morning at 9 AM.,0,new employee orientation will be held on monday morning at 9 am,64,12,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+eBay Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,ebay prime renewal failed update payment http fake amazon prime com billing,79,7,1,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+"WhatsApp verification code: 123456. If not you, secure account: http://fake-whatsapp.com/secure",1,whatsapp verification code 123456 if not you secure account http fake whatsapp com secure,95,10,1,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Training session on new software tools is scheduled for next Tuesday.,0,training session on new software tools is scheduled for next tuesday,69,11,0,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Your Amazon account has been suspended. Restore access here: http://fake-amazon.com,1,your amazon account has been suspended restore access here http fake amazon com,83,10,1,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+IRS Notice: You owe back taxes. Pay immediately to avoid penalties: http://fake-irs.com,1,irs notice you owe back taxes pay immediately to avoid penalties http fake irs com,87,12,1,0,0,1
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+LinkedIn premium trial ending. Continue access: http://fake-linkedin.com/premium,1,linkedin premium trial ending continue access http fake linkedin com premium,80,7,1,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+Your Apple Pay account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your apple pay account has been limited please verify your account by clicking here http fake paypal com verify,115,15,1,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Amazon Prime renewal failed. Update payment: http://fake-amazon-prime.com/billing,1,amazon prime renewal failed update payment http fake amazon prime com billing,81,7,1,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Microsoft security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,microsoft security alert suspicious login detected verify here http fake microsoft com security,100,9,1,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Your Payoneer account is suspended. Reactivate here: http://fake-payoneer.com/activate,1,your payoneer account is suspended reactivate here http fake payoneer com activate,86,8,1,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+URGENT: Your account will be suspended unless you verify your information immediately. Click here: http://fake-bank.com/verify,1,urgent your account will be suspended unless you verify your information immediately click here http fake bank com verify,126,15,1,0,0,2
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Your Apple Pay payment failed. Update card details: http://fake-paypal-2.com/update,1,your apple pay payment failed update card details http fake paypal 2 com update,83,9,1,0,0,0
+Your Uber account suspended. Reactivate here: http://fake-uber.com/reactivate,1,your uber account suspended reactivate here http fake uber com reactivate,77,7,1,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Meeting reminder: Team standup at 10 AM today in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 10 am today in conference room b please bring your progress reports,103,17,0,0,0,0
+Conference call rescheduled to Thursday 11 AM. Dial-in details attached.,0,conference call rescheduled to thursday 11 am dial in details attached,72,10,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your recent order #67890 has been shipped with tracking number TR123456.,0,your recent order 67890 has been shipped with tracking number tr123456,72,11,0,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+Your eBay account has been suspended. Restore access here: http://fake-amazon.com,1,your ebay account has been suspended restore access here http fake amazon com,81,10,1,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Your package is held at customs. Pay fees to release: http://fake-shipping.com,1,your package is held at customs pay fees to release http fake shipping com,78,11,1,0,0,0
+Twitter account suspended for violations. Appeal here: http://fake-twitter.com/appeal,1,twitter account suspended for violations appeal here http fake twitter com appeal,85,8,1,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Thank you for your order #12345. Your items will be shipped within 2-3 business days.,0,thank you for your order 12345 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+New policy updates have been posted to the employee portal.,0,new policy updates have been posted to the employee portal,59,10,0,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Your monthly bank statement is now available. You can view it by logging into your account.,0,your monthly bank statement is now available you can view it by logging into your account,91,16,0,0,0,0
+Your Spotify account has been hacked. Secure it now: http://fake-spotify.com/secure,1,your spotify account has been hacked secure it now http fake spotify com secure,83,10,1,0,0,0
+"Congratulations! You've inherited $1,000,000. Claim here: http://fake-inheritance.com/claim",1,congratulations you ve inherited 1 000 000 claim here http fake inheritance com claim,91,7,1,1,1,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+Your Steam account has suspicious activity. Verify here: http://fake-steam.com/verify,1,your steam account has suspicious activity verify here http fake steam com verify,85,9,1,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Your domain registration has expired. Renew immediately: http://fake-domain.com/renew,1,your domain registration has expired renew immediately http fake domain com renew,85,8,1,0,0,1
+Thank you for your order #12345. Your items will be shipped within 3-5 business days.,0,thank you for your order 12345 your items will be shipped within 3 5 business days,85,15,0,0,0,0
+System maintenance scheduled for this weekend. Services may be briefly interrupted.,0,system maintenance scheduled for this weekend services may be briefly interrupted,83,11,0,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Your subscription to our newsletter has been confirmed. Thank you for subscribing!,0,your subscription to our newsletter has been confirmed thank you for subscribing,82,12,0,1,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your PayPal account has been limited. Please verify your account by clicking here: http://fake-paypal.com/verify,1,your paypal account has been limited please verify your account by clicking here http fake paypal com verify,112,14,1,0,0,0
+Your email account will be deleted. Prevent deletion: http://fake-email.com/save,1,your email account will be deleted prevent deletion http fake email com save,80,9,1,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Weekly team meeting scheduled for Friday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for friday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Your license renewal is due next month. Please complete the process online.,0,your license renewal is due next month please complete the process online,75,12,0,0,0,0
+Monthly newsletter: Check out our latest product updates and company news.,0,monthly newsletter check out our latest product updates and company news,74,11,0,0,0,0
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+"Congratulations! You have won $5,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 5 000 in our lottery claim your prize now by clicking here http fake lottery com,115,16,1,1,1,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Technical support ticket #67890 has been resolved. Please confirm the fix.,0,technical support ticket 67890 has been resolved please confirm the fix,74,11,0,0,0,0
+Your report has been generated and is ready for download.,0,your report has been generated and is ready for download,57,10,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Your flight booking confirmation for Flight DL456 on December 15th. Have a great trip!,0,your flight booking confirmation for flight dl456 on december 15th have a great trip,86,14,0,1,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Project deadline reminder: Final submission due by Friday 5 PM.,0,project deadline reminder final submission due by friday 5 pm,63,10,0,0,0,0
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+Chase Bank: Your card has been blocked. Unblock here: http://fake-chase.com/unblock,1,chase bank your card has been blocked unblock here http fake chase com unblock,83,10,1,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+IMPORTANT: Your credit card will be charged $500 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 500 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+New employee handbook is now available on the company intranet.,0,new employee handbook is now available on the company intranet,63,10,0,0,0,0
+"Hi John, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi john hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Team building event planned for next Monday. Registration is now open.,0,team building event planned for next monday registration is now open,70,11,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Project update: The new feature has been deployed to production. Please test and provide feedback.,0,project update the new feature has been deployed to production please test and provide feedback,98,15,0,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+"Tax refund of $1,500 available. Claim here: http://fake-tax.com/refund",1,tax refund of 1 500 available claim here http fake tax com refund,70,8,1,0,1,0
+Wells Fargo alert: Unusual transactions detected. Click to verify: http://fake-wells.com/alert,1,wells fargo alert unusual transactions detected click to verify http fake wells com alert,94,10,1,0,0,0
+Your parking permit application has been approved and is ready for pickup.,0,your parking permit application has been approved and is ready for pickup,74,12,0,0,0,0
+Airbnb booking cancelled due to fraud. Verify identity: http://fake-airbnb.com/verify,1,airbnb booking cancelled due to fraud verify identity http fake airbnb com verify,85,9,1,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Instagram verification required. Verify your identity: http://fake-instagram.com/verify,1,instagram verification required verify your identity http fake instagram com verify,87,7,1,0,0,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+Google account suspension notice. Restore access immediately: http://fake-google.com/restore,1,google account suspension notice restore access immediately http fake google com restore,92,8,1,0,0,1
+"Congratulations! You have won $10,000 in our lottery. Claim your prize now by clicking here: http://fake-lottery.com",1,congratulations you have won 10 000 in our lottery claim your prize now by clicking here http fake lottery com,116,16,1,1,1,0
+Your Hulu subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your hulu subscription has expired update payment method http fake netflix com billing,90,9,1,0,0,0
+Security Alert: Unusual activity detected on your account. Verify your identity immediately: http://suspicious-site.com,1,security alert unusual activity detected on your account verify your identity immediately http suspicious site com,119,13,1,0,0,1
+Your healthcare benefits enrollment period ends next week.,0,your healthcare benefits enrollment period ends next week,58,8,0,0,0,0
+Your Apple ID has been locked. Unlock now: http://fake-apple.com/unlock,1,your apple id has been locked unlock now http fake apple com unlock,71,9,1,0,0,0
+Your Netflix subscription has expired. Update payment method: http://fake-netflix.com/billing,1,your netflix subscription has expired update payment method http fake netflix com billing,93,9,1,0,0,0
+Reminder: Your appointment is scheduled for tomorrow at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for tomorrow at 2 pm please arrive 15 minutes early,93,15,0,0,0,0
+Your email provider is closing. Migrate data now: http://fake-migration.com/migrate,1,your email provider is closing migrate data now http fake migration com migrate,83,9,1,0,0,0
+Adobe security alert: Suspicious login detected. Verify here: http://fake-microsoft.com/security,1,adobe security alert suspicious login detected verify here http fake microsoft com security,96,9,1,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Project deadline reminder: Final submission due by Monday 5 PM.,0,project deadline reminder final submission due by monday 5 pm,63,10,0,0,0,0
+Your cryptocurrency wallet has been compromised. Secure it now: http://fake-crypto.com/secure,1,your cryptocurrency wallet has been compromised secure it now http fake crypto com secure,93,10,1,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+Bitcoin investment opportunity: 1000% returns guaranteed! Invest now: http://fake-bitcoin.com/invest,1,bitcoin investment opportunity 1000 returns guaranteed invest now http fake bitcoin com invest,100,9,1,1,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+Reminder: Your appointment is scheduled for today at 2 PM. Please arrive 15 minutes early.,0,reminder your appointment is scheduled for today at 2 pm please arrive 15 minutes early,90,15,0,0,0,0
+Team building event planned for next Friday. Registration is now open.,0,team building event planned for next friday registration is now open,70,11,0,0,0,0
+Your flight booking confirmation for Flight AA123 on December 15th. Have a great trip!,0,your flight booking confirmation for flight aa123 on december 15th have a great trip,86,14,0,1,0,0
+Performance review meeting set for next week. Please prepare your self-assessment.,0,performance review meeting set for next week please prepare your self assessment,82,11,0,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Limited time offer! Get rich quick with our guaranteed investment scheme. Act now!,1,limited time offer get rich quick with our guaranteed investment scheme act now,82,13,0,2,0,2
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
+Server upgrade completed successfully. All systems are now operational.,0,server upgrade completed successfully all systems are now operational,71,9,0,0,0,0
+"You have received a money transfer of $50,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 50 000 claim it now http fake transfer com,85,12,1,0,1,0
+Annual company picnic scheduled for June 15th. Save the date!,0,annual company picnic scheduled for june 15th save the date,61,10,0,1,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Customer satisfaction survey results are now available in the dashboard.,0,customer satisfaction survey results are now available in the dashboard,72,10,0,0,0,0
+Your PayPal payment failed. Update card details: http://fake-paypal-2.com/update,1,your paypal payment failed update card details http fake paypal 2 com update,80,8,1,0,0,0
+Happy Birthday! Wishing you a wonderful day filled with joy and celebration.,0,happy birthday wishing you a wonderful day filled with joy and celebration,76,12,0,1,0,0
+Your Zoom account has been compromised. Secure it: http://fake-zoom.com/security,1,your zoom account has been compromised secure it http fake zoom com security,80,9,1,0,0,0
+Thank you for attending our webinar. The recording and slides are now available for download.,0,thank you for attending our webinar the recording and slides are now available for download,93,15,0,0,0,0
+IMPORTANT: Your credit card will be charged $300 unless you cancel immediately. Click here: http://scam-site.com,1,important your credit card will be charged 300 unless you cancel immediately click here http scam site com,112,15,1,0,1,1
+"You have received a money transfer of $25,000. Claim it now: http://fake-transfer.com",1,you have received a money transfer of 25 000 claim it now http fake transfer com,85,12,1,0,1,0
+Thank you for your order #67890. Your items will be shipped within 2-3 business days.,0,thank you for your order 67890 your items will be shipped within 2 3 business days,85,15,0,0,0,0
+"Your password has been successfully updated. If this wasn't you, please contact support.",0,your password has been successfully updated if this wasn t you please contact support,88,13,0,0,0,0
+Your travel request has been approved. Booking details will follow shortly.,0,your travel request has been approved booking details will follow shortly,75,11,0,0,0,0
+Your subscription renewal is due next month. Auto-pay is enabled.,0,your subscription renewal is due next month auto pay is enabled,65,10,0,0,0,0
+Welcome to our premium membership! Your benefits are now active.,0,welcome to our premium membership your benefits are now active,64,10,0,1,0,0
+Your feedback on our recent service has been received. Thank you for your input.,0,your feedback on our recent service has been received thank you for your input,80,14,0,0,0,0
+Your recent purchase has been processed and will arrive within 5-7 business days.,0,your recent purchase has been processed and will arrive within 5 7 business days,81,13,0,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Dropbox storage full. Upgrade now or lose files: http://fake-dropbox.com/upgrade,1,dropbox storage full upgrade now or lose files http fake dropbox com upgrade,80,9,1,0,0,0
+Technical support ticket #12345 has been resolved. Please confirm the fix.,0,technical support ticket 12345 has been resolved please confirm the fix,74,11,0,0,0,0
+Your eBay listing has been removed. Restore it here: http://fake-ebay.com/restore,1,your ebay listing has been removed restore it here http fake ebay com restore,81,10,1,0,0,0
+Meeting reminder: Team standup at 2 PM tomorrow in conference room B. Please bring your progress reports.,0,meeting reminder team standup at 2 pm tomorrow in conference room b please bring your progress reports,105,17,0,0,0,0
+Weekly team meeting scheduled for Monday at 3 PM. Please confirm your attendance.,0,weekly team meeting scheduled for monday at 3 pm please confirm your attendance,81,13,0,0,0,0
+Invoice #INV-2024-001 is now available in your account dashboard.,0,invoice inv 2024 001 is now available in your account dashboard,65,9,0,0,0,0
+Facebook security notice: Your account has been compromised. Secure it now: http://fake-facebook.com/security,1,facebook security notice your account has been compromised secure it now http fake facebook com security,109,12,1,0,0,0
+"Hi Mike, Hope you're doing well. Just wanted to follow up on our meeting yesterday. Best regards, Sarah",0,hi mike hope you re doing well just wanted to follow up on our meeting yesterday best regards sarah,103,18,0,0,0,0
+Office closure notice: We will be closed for the holiday weekend.,0,office closure notice we will be closed for the holiday weekend,65,11,0,0,0,0
